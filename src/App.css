@@ -1,5 +1,6 @@
 .btn{
   border: 1px solid black;
+  color: black;
   border-radius: 3px;
   background-color: rgb(244, 244, 244);
 }
