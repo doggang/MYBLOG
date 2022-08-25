@@ -19,7 +19,7 @@ function App(){
       <div className="black-nav">
         <h4>My Blog</h4>
       </div>
-      <button onClick={()=>{
+      <button className="btn" onClick={()=>{
         let copy = [...title];
         copy.sort();
         setTitle(copy);
@@ -43,7 +43,7 @@ function App(){
                 setLikeNum(copy);
               }}>👍</span> {likeNum[i]}</h4>
               <p>{`${time[i]} 등록`}</p>
-              <button onClick={()=>{
+              <button className="btn" onClick={()=>{
                 let copy = [...title];
                 copy.splice(i,1);
                 setTitle(copy);
@@ -71,7 +71,7 @@ function App(){
           fontStyle:'normal'
         }} onChange={(e)=>{settNewDetail(e.target.value)}}></textarea>
         <br/>
-        <button onClick={()=>{
+        <button className="btn" onClick={()=>{
           if(newRegister=='' || newDetail==''){
             alert("오류!");
           }else{
