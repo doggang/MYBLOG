@@ -5,3 +5,4 @@ React를 이용하여 To Do List를 만들어봄
 삭제는 shift함수를 이용하여 구현하였다.
 
 URL : https://doggang.github.io/MYBLOG/
+![스크린샷 2024-11-05 210638](https://github.com/user-attachments/assets/98297acc-0c40-414f-a9be-82538f753871)
